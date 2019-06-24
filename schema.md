@@ -85,5 +85,3 @@ Schema
 | 77 | B4-inked | | |
 | 78 | B4-rank | | |
 | 79 | B4-level | | |
-
-----
