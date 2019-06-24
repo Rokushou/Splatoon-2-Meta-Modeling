@@ -1,0 +1,1679 @@
+[
+    {
+        "key": "battera",
+        "splatnet": 0,
+        "name": {
+            "de_DE": "Korallenviertel",
+            "en_GB": "The Reef",
+            "en_US": "The Reef",
+            "es_ES": "Barrio Congrio",
+            "es_MX": "Barrio Congrio",
+            "fr_CA": "Allées salées",
+            "fr_FR": "Allées salées",
+            "it_IT": "Rione Storione",
+            "ja_JP": "バッテラストリート",
+            "nl_NL": "Sushistraat",
+            "ru_RU": "Риф"
+        },
+        "short_name": {
+            "de_DE": "Korallenviertel",
+            "en_GB": "Reef",
+            "en_US": "Reef",
+            "es_ES": "Barrio Congrio",
+            "es_MX": "Barrio Congrio",
+            "fr_CA": "Allées salées",
+            "fr_FR": "Allées salées",
+            "it_IT": "Rione Storione",
+            "ja_JP": "バッテラ",
+            "nl_NL": "Sushistraat",
+            "ru_RU": "Риф"
+        },
+        "area": 2450,
+        "release_at": {
+            "time": 1490382000,
+            "iso8601": "2017-03-24T19:00:00+00:00"
+        }
+    },
+    {
+        "key": "fujitsubo",
+        "splatnet": 1,
+        "name": {
+            "de_DE": "Molluskelbude",
+            "en_GB": "Musselforge Fitness",
+            "en_US": "Musselforge Fitness",
+            "es_ES": "Gimnasio Mejillón",
+            "es_MX": "Gimnasio Mejillón",
+            "fr_CA": "Gymnase Ancrage",
+            "fr_FR": "Gymnase Ancrage",
+            "it_IT": "Centro polpisportivo",
+            "ja_JP": "フジツボスポーツクラブ",
+            "nl_NL": "Vinvis Fitness",
+            "ru_RU": "Спортзал «Кревед!»"
+        },
+        "short_name": {
+            "de_DE": "Molluskelbude",
+            "en_GB": "Fitness",
+            "en_US": "Fitness",
+            "es_ES": "Gimnasio Mejillón",
+            "es_MX": "Gimnasio Mejillón",
+            "fr_CA": "Gymnase Ancrage",
+            "fr_FR": "Gymnase Ancrage",
+            "it_IT": "Centro polpisportivo",
+            "ja_JP": "フジツボ",
+            "nl_NL": "Vinvis Fitness",
+            "ru_RU": "Спортзал «Кревед!»"
+        },
+        "area": 1957,
+        "release_at": {
+            "time": 1490382000,
+            "iso8601": "2017-03-24T19:00:00+00:00"
+        }
+    },
+    {
+        "key": "gangaze",
+        "splatnet": 2,
+        "name": {
+            "de_DE": "Seeigel-Rockbühne",
+            "en_GB": "Starfish Mainstage",
+            "en_US": "Starfish Mainstage",
+            "es_ES": "Auditorio Erizo",
+            "es_MX": "Auditorio Erizo",
+            "fr_CA": "Scène Sirène",
+            "fr_FR": "Scène Sirène",
+            "it_IT": "Palco Plancton",
+            "ja_JP": "ガンガゼ野外音楽堂",
+            "nl_NL": "Zeesterrenstage",
+            "ru_RU": "КЗ «Иглокожий»"
+        },
+        "short_name": {
+            "de_DE": "Seeigel-Rockbühne",
+            "en_GB": "Mainstage",
+            "en_US": "Mainstage",
+            "es_ES": "Auditorio Erizo",
+            "es_MX": "Auditorio Erizo",
+            "fr_CA": "Scène Sirène",
+            "fr_FR": "Scène Sirène",
+            "it_IT": "Palco Plancton",
+            "ja_JP": "ガンガゼ",
+            "nl_NL": "Zeesterrenstage",
+            "ru_RU": "КЗ «Иглокожий»"
+        },
+        "area": 2140,
+        "release_at": {
+            "time": 1500105600,
+            "iso8601": "2017-07-15T08:00:00+00:00"
+        }
+    },
+    {
+        "key": "kombu",
+        "splatnet": 5,
+        "name": {
+            "de_DE": "Buckelwal-Piste",
+            "en_GB": "Humpback Pump Track",
+            "en_US": "Humpback Pump Track",
+            "es_ES": "Tiburódromo",
+            "es_MX": "Tiburódromo",
+            "fr_CA": "Piste Méroule",
+            "fr_FR": "Piste Méroule",
+            "it_IT": "Tintodromo Montecarpa",
+            "ja_JP": "コンブトラック",
+            "nl_NL": "Lekkerbektrack",
+            "ru_RU": "Велозал «9-й вал»"
+        },
+        "short_name": {
+            "de_DE": "Buckelwal-Piste",
+            "en_GB": "Track",
+            "en_US": "Track",
+            "es_ES": "Tiburódromo",
+            "es_MX": "Tiburódromo",
+            "fr_CA": "Piste Méroule",
+            "fr_FR": "Piste Méroule",
+            "it_IT": "Tintodromo Montecarpa",
+            "ja_JP": "コンブ",
+            "nl_NL": "Lekkerbektrack",
+            "ru_RU": "Велозал «9-й вал»"
+        },
+        "area": 2259,
+        "release_at": {
+            "time": 1500105600,
+            "iso8601": "2017-07-15T08:00:00+00:00"
+        }
+    },
+    {
+        "key": "ama",
+        "splatnet": 4,
+        "name": {
+            "de_DE": "Perlmutt-Akademie",
+            "en_GB": "Inkblot Art Academy",
+            "en_US": "Inkblot Art Academy",
+            "es_ES": "Instituto Coralino",
+            "es_MX": "Instituto Coralino",
+            "fr_CA": "Institut Calm'arts",
+            "fr_FR": "Institut Calam'arts",
+            "it_IT": "Campus Hippocampus",
+            "ja_JP": "海女美術大学",
+            "nl_NL": "Koraalcampus",
+            "ru_RU": "Академия «Лепота»"
+        },
+        "short_name": {
+            "de_DE": "Perlmutt-Akademie",
+            "en_GB": "Academy",
+            "en_US": "Academy",
+            "es_ES": "Instituto Coralino",
+            "es_MX": "Instituto Coralino",
+            "fr_CA": "Institut Calm'arts",
+            "fr_FR": "Institut Calam'arts",
+            "it_IT": "Campus Hippocampus",
+            "ja_JP": "アマビ",
+            "nl_NL": "Koraalcampus",
+            "ru_RU": "Академия «Лепота»"
+        },
+        "area": 2465,
+        "release_at": {
+            "time": 1500105600,
+            "iso8601": "2017-07-15T08:00:00+00:00"
+        }
+    },
+    {
+        "key": "chozame",
+        "splatnet": 3,
+        "name": {
+            "de_DE": "Störwerft",
+            "en_GB": "Sturgeon Shipyard",
+            "en_US": "Sturgeon Shipyard",
+            "es_ES": "Astillero Beluga",
+            "es_MX": "Astillero Beluga",
+            "fr_CA": "Chantier Narval",
+            "fr_FR": "Chantier Narval",
+            "it_IT": "Cantiere Pinnenere",
+            "ja_JP": "チョウザメ造船",
+            "nl_NL": "Walruswerf",
+            "ru_RU": "Осетровые верфи"
+        },
+        "short_name": {
+            "de_DE": "Störwerft",
+            "en_GB": "Shipyard",
+            "en_US": "Shipyard",
+            "es_ES": "Astillero Beluga",
+            "es_MX": "Astillero Beluga",
+            "fr_CA": "Chantier Narval",
+            "fr_FR": "Chantier Narval",
+            "it_IT": "Cantiere Pinnenere",
+            "ja_JP": "チョウザメ",
+            "nl_NL": "Walruswerf",
+            "ru_RU": "Осетровые верфи"
+        },
+        "area": 2355,
+        "release_at": {
+            "time": 1500562800,
+            "iso8601": "2017-07-20T15:00:00+00:00"
+        }
+    },
+    {
+        "key": "hokke",
+        "splatnet": 7,
+        "name": {
+            "de_DE": "Heilbutt-Hafen",
+            "en_GB": "Port Mackerel",
+            "en_US": "Port Mackerel",
+            "es_ES": "Puerto Jurel",
+            "es_MX": "Puerto Jurel",
+            "fr_CA": "Docks Haddock",
+            "fr_FR": "Docks Haddock",
+            "it_IT": "Porto Polpo",
+            "ja_JP": "ホッケふ頭",
+            "nl_NL": "Hamerhaaihaven",
+            "ru_RU": "Порт «Корюшка»"
+        },
+        "short_name": {
+            "de_DE": "Heilbutt-Hafen",
+            "en_GB": "Port",
+            "en_US": "Port",
+            "es_ES": "Puerto Jurel",
+            "es_MX": "Puerto Jurel",
+            "fr_CA": "Docks Haddock",
+            "fr_FR": "Docks Haddock",
+            "it_IT": "Porto Polpo",
+            "ja_JP": "ホッケ",
+            "nl_NL": "Hamerhaaihaven",
+            "ru_RU": "Порт «Корюшка»"
+        },
+        "area": 2455,
+        "release_at": {
+            "time": 1500562800,
+            "iso8601": "2017-07-20T15:00:00+00:00"
+        }
+    },
+    {
+        "key": "tachiuo",
+        "splatnet": 8,
+        "name": {
+            "de_DE": "Muränentürme",
+            "en_GB": "Moray Towers",
+            "en_US": "Moray Towers",
+            "es_ES": "Torres Merluza",
+            "es_MX": "Torres Merluza",
+            "fr_CA": "Tours Girelle",
+            "fr_FR": "Tours Girelle",
+            "it_IT": "Torri cittadine",
+            "ja_JP": "タチウオパーキング",
+            "nl_NL": "Tonijntorens",
+            "ru_RU": "Муренские башни"
+        },
+        "short_name": {
+            "de_DE": "Muränentürme",
+            "en_GB": "Towers",
+            "en_US": "Towers",
+            "es_ES": "Torres Merluza",
+            "es_MX": "Torres Merluza",
+            "fr_CA": "Tours Girelle",
+            "fr_FR": "Tours Girelle",
+            "it_IT": "Torri cittadine",
+            "ja_JP": "タチウオ",
+            "nl_NL": "Tonijntorens",
+            "ru_RU": "Муренские башни"
+        },
+        "area": 2215,
+        "release_at": {
+            "time": 1500105600,
+            "iso8601": "2017-07-15T08:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery",
+        "splatnet": 9999,
+        "name": {
+            "de_DE": "Wandelzone",
+            "en_GB": "Shifty Station",
+            "en_US": "Shifty Station",
+            "es_ES": "Área mutante",
+            "es_MX": "Área mutante",
+            "fr_CA": "Plate-forme polymorphe",
+            "fr_FR": "Plateforme polymorphe",
+            "it_IT": "Zona mista",
+            "ja_JP": "ミステリーゾーン",
+            "nl_NL": "Wisselwereld",
+            "ru_RU": "Транстанция"
+        },
+        "short_name": {
+            "de_DE": "Wandelzone",
+            "en_GB": "Shifty",
+            "en_US": "Shifty",
+            "es_ES": "Área mutante",
+            "es_MX": "Área mutante",
+            "fr_CA": "Plateforme polymorphe",
+            "fr_FR": "Plateforme polymorphe",
+            "it_IT": "Zona mista",
+            "ja_JP": "ミステリー",
+            "nl_NL": "Wisselwereld",
+            "ru_RU": "Транстанция"
+        },
+        "area": null,
+        "release_at": {
+            "time": 1501826400,
+            "iso8601": "2017-08-04T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "manta",
+        "splatnet": 6,
+        "name": {
+            "de_DE": "Manta Maria",
+            "en_GB": "Manta Maria",
+            "en_US": "Manta Maria",
+            "es_ES": "Corbeta Corvina",
+            "es_MX": "Corbeta Corvina",
+            "fr_CA": "Manta Maria",
+            "fr_FR": "Manta Maria",
+            "it_IT": "Manta Maria",
+            "ja_JP": "マンタマリア号",
+            "nl_NL": "Klipvisklipper",
+            "ru_RU": "«Манта-Мария»"
+        },
+        "short_name": {
+            "de_DE": "Manta Maria",
+            "en_GB": "Manta",
+            "en_US": "Manta",
+            "es_ES": "Corbeta Corvina",
+            "es_MX": "Corbeta Corvina",
+            "fr_CA": "Manta",
+            "fr_FR": "Manta",
+            "it_IT": "Manta Maria",
+            "ja_JP": "マンタ",
+            "nl_NL": "Klipvisklipper",
+            "ru_RU": "Манта Мария"
+        },
+        "area": 2355,
+        "release_at": {
+            "time": 1503673200,
+            "iso8601": "2017-08-25T15:00:00+00:00"
+        }
+    },
+    {
+        "key": "mozuku",
+        "splatnet": 10,
+        "name": {
+            "de_DE": "Tümmlerkuppel",
+            "en_GB": "Kelp Dome",
+            "en_US": "Kelp Dome",
+            "es_ES": "Jardín botánico",
+            "es_MX": "Jardín botánico",
+            "fr_CA": "Serre Goémon",
+            "fr_FR": "Serre Goémon",
+            "it_IT": "Serra di alghe",
+            "ja_JP": "モズク農園",
+            "nl_NL": "Kelpwierkas",
+            "ru_RU": "Ферма ламинарии"
+        },
+        "short_name": {
+            "de_DE": "Tümmlerkuppel",
+            "en_GB": "Dome",
+            "en_US": "Dome",
+            "es_ES": "Jardín botánico",
+            "es_MX": "Jardín botánico",
+            "fr_CA": "Serre Goémon",
+            "fr_FR": "Serre Goémon",
+            "it_IT": "Serra di alghe",
+            "ja_JP": "モズク",
+            "nl_NL": "Kelpwierkas",
+            "ru_RU": "Ферма ламинарии"
+        },
+        "area": 2315,
+        "release_at": {
+            "time": 1505527200,
+            "iso8601": "2017-09-16T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "engawa",
+        "splatnet": 9,
+        "name": {
+            "de_DE": "Grätenkanal",
+            "en_GB": "Snapper Canal",
+            "en_US": "Snapper Canal",
+            "es_ES": "Canal Cormorán",
+            "es_MX": "Canal Cormorán",
+            "fr_CA": "Canalmar",
+            "fr_FR": "Canalamar",
+            "it_IT": "Canale Cannolicchio",
+            "ja_JP": "エンガワ河川敷",
+            "nl_NL": "Moeraalkanaal",
+            "ru_RU": "Подмостовье"
+        },
+        "short_name": {
+            "de_DE": "Grätenkanal",
+            "en_GB": "Canal",
+            "en_US": "Canal",
+            "es_ES": "Canal Cormorán",
+            "es_MX": "Canal Cormorán",
+            "fr_CA": "Canalamar",
+            "fr_FR": "Canalamar",
+            "it_IT": "Canale Cannolicchio",
+            "ja_JP": "エンガワ",
+            "nl_NL": "Moeraalkanaal",
+            "ru_RU": "Подмостовье"
+        },
+        "area": 2250,
+        "release_at": {
+            "time": 1507298400,
+            "iso8601": "2017-10-06T14:00:00+00:00"
+        }
+    },
+    {
+        "key": "bbass",
+        "splatnet": 11,
+        "name": {
+            "de_DE": "Punkasius-Skatepark",
+            "en_GB": "Blackbelly Skatepark",
+            "en_US": "Blackbelly Skatepark",
+            "es_ES": "Parque Lubina",
+            "es_MX": "Parque Lubina",
+            "fr_CA": "Plancho Mako",
+            "fr_FR": "Skatepark Mako",
+            "it_IT": "Pista Polposkate",
+            "ja_JP": "Bバスパーク",
+            "nl_NL": "Snoekduik-skatepark",
+            "ru_RU": "Скейт-парк «Скат»"
+        },
+        "short_name": {
+            "de_DE": "Skatepark",
+            "en_GB": "Skatepark",
+            "en_US": "Skatepark",
+            "es_ES": "Parque Lubina",
+            "es_MX": "Parque Lubina",
+            "fr_CA": "Plancho Mako",
+            "fr_FR": "Skatepark Mako",
+            "it_IT": "Pista Polposkate",
+            "ja_JP": "Bバス",
+            "nl_NL": "Snoekduik-skatepark",
+            "ru_RU": "Скейт-парк «Скат»"
+        },
+        "area": 1947,
+        "release_at": {
+            "time": 1509156000,
+            "iso8601": "2017-10-28T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "zatou",
+        "splatnet": 13,
+        "name": {
+            "de_DE": "Cetacea-Markt",
+            "en_GB": "MakoMart",
+            "en_US": "MakoMart",
+            "es_ES": "Ultramarinos Orca",
+            "es_MX": "Ultramarinos Orca",
+            "fr_CA": "Supermarché Cétacé",
+            "fr_FR": "Supermarché Cétacé",
+            "it_IT": "Mercatotano",
+            "ja_JP": "ザトウマーケット",
+            "nl_NL": "Bultrugbazaar",
+            "ru_RU": "«Горбуша-Маркет»"
+        },
+        "short_name": {
+            "de_DE": "Cetacea-Markt",
+            "en_GB": "Mart",
+            "en_US": "Mart",
+            "es_ES": "Ultramarinos Orca",
+            "es_MX": "Ultramarinos Orca",
+            "fr_CA": "Supermarché Cétacé",
+            "fr_FR": "Supermarché Cétacé",
+            "it_IT": "Mercatotano",
+            "ja_JP": "ザトウ",
+            "nl_NL": "Bultrugbazaar",
+            "ru_RU": "Горбуша-Маркет"
+        },
+        "area": 2166,
+        "release_at": {
+            "time": 1511575200,
+            "iso8601": "2017-11-25T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "arowana",
+        "splatnet": 15,
+        "name": {
+            "de_DE": "Arowana-Center",
+            "en_GB": "Arowana Mall",
+            "en_US": "Arowana Mall",
+            "es_ES": "Plazuela del Calamar",
+            "es_MX": "Plazuela del Calamar",
+            "fr_CA": "Centre Arowana",
+            "fr_FR": "Centre Arowana",
+            "it_IT": "Centro commerciale",
+            "ja_JP": "アロワナモール",
+            "nl_NL": "Piranha Plaza",
+            "ru_RU": "ТЦ «Аравана»"
+        },
+        "short_name": {
+            "de_DE": "Arowana Center",
+            "en_GB": "Mall",
+            "en_US": "Mall",
+            "es_ES": "Plazuela del Calamar",
+            "es_MX": "Plazuela del Calamar",
+            "fr_CA": "Centre Arowana",
+            "fr_FR": "Centre Arowana",
+            "it_IT": "Centro Commerciale",
+            "ja_JP": "アロワナ",
+            "nl_NL": "Winkelcentrum",
+            "ru_RU": "ТЦ «Аравана»"
+        },
+        "area": 2391,
+        "release_at": {
+            "time": 1517536800,
+            "iso8601": "2018-02-02T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "hakofugu",
+        "splatnet": 14,
+        "name": {
+            "de_DE": "Kofferfisch-Lager",
+            "en_GB": "Walleye Warehouse",
+            "en_US": "Walleye Warehouse",
+            "es_ES": "Almacén Rodaballo",
+            "es_MX": "Almacén Rodaballo",
+            "fr_CA": "Encrepôt",
+            "fr_FR": "Encrepôt",
+            "it_IT": "Magazzino",
+            "ja_JP": "ハコフグ倉庫",
+            "nl_NL": "Zeeleeuwloods",
+            "ru_RU": "Инкрабсклад"
+        },
+        "short_name": {
+            "de_DE": "Kofferfisch-Lager",
+            "en_GB": "Warehouse",
+            "en_US": "Warehouse",
+            "es_ES": "Almacén Rodaballo",
+            "es_MX": "Almacén Rodaballo",
+            "fr_CA": "Encrepôt",
+            "fr_FR": "Encrepôt",
+            "it_IT": "Magazzino",
+            "ja_JP": "ハコフグ",
+            "nl_NL": "Warehouse",
+            "ru_RU": "Warehouse"
+        },
+        "area": 1632,
+        "release_at": {
+            "time": 1513303200,
+            "iso8601": "2017-12-15T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "devon",
+        "splatnet": 12,
+        "name": {
+            "de_DE": "Abyssal-Museum",
+            "en_GB": "Shellendorf Institute",
+            "en_US": "Shellendorf Institute",
+            "es_ES": "Galería Raspa",
+            "es_MX": "Galería Raspa",
+            "fr_CA": "Galerie des abysses",
+            "fr_FR": "Galerie des abysses",
+            "it_IT": "Museo paleontonnologico",
+            "ja_JP": "デボン海洋博物館",
+            "nl_NL": "Vistorisch museum",
+            "ru_RU": "Музей «Мезозой»"
+        },
+        "short_name": {
+            "de_DE": "Abyssal-Museum",
+            "en_GB": "Institute",
+            "en_US": "Institute",
+            "es_ES": "Galería Raspa",
+            "es_MX": "Galería Raspa",
+            "fr_CA": "La Galerie des Abysses",
+            "fr_FR": "La Galerie des Abysses",
+            "it_IT": "Il Museo paleontonnologico",
+            "ja_JP": "デボン",
+            "nl_NL": "Vistorisch museum",
+            "ru_RU": "музей «Мезозой»"
+        },
+        "area": 2052,
+        "release_at": {
+            "time": 1515722400,
+            "iso8601": "2018-01-12T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "ajifry",
+        "splatnet": 18,
+        "name": {
+            "de_DE": "Backfisch-Stadion",
+            "en_GB": "Goby Arena",
+            "en_US": "Goby Arena",
+            "es_ES": "Estadio Ajolote",
+            "es_MX": "Estadio Ajolote",
+            "fr_CA": "Stade Bernique",
+            "fr_FR": "Stade Bernique",
+            "it_IT": "Arena Sardina",
+            "ja_JP": "アジフライスタジアム",
+            "nl_NL": "Planktonstadion",
+            "ru_RU": "Арена «Лужа»"
+        },
+        "short_name": {
+            "de_DE": "Backfisch-Stadion",
+            "en_GB": "Arena",
+            "en_US": "Arena",
+            "es_ES": "Estadio Ajolote",
+            "es_MX": "Estadio Ajolote",
+            "fr_CA": "Stade Bernique",
+            "fr_FR": "Stade Bernique",
+            "it_IT": "Arena Sardina",
+            "ja_JP": "アジフライ",
+            "nl_NL": "Planktonstadion",
+            "ru_RU": "Арена «Лужа»"
+        },
+        "area": 2221,
+        "release_at": {
+            "time": 1519956000,
+            "iso8601": "2018-03-02T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "shottsuru",
+        "splatnet": 17,
+        "name": {
+            "de_DE": "Steinköhler-Grube",
+            "en_GB": "Piranha Pit",
+            "en_US": "Piranha Pit",
+            "es_ES": "Cantera Tintorera",
+            "es_MX": "Cantera Tintorera",
+            "fr_CA": "Carrières Caviar",
+            "fr_FR": "Carrière Caviar",
+            "it_IT": "Miniera d'Orata",
+            "ja_JP": "ショッツル鉱山",
+            "nl_NL": "Grondelgroeve",
+            "ru_RU": "Пираньев карьер"
+        },
+        "short_name": {
+            "de_DE": "Steinköhler-Grube",
+            "en_GB": "Pit",
+            "en_US": "Pit",
+            "es_ES": "Cantera Tintorera",
+            "es_MX": "Cantera Tintorera",
+            "fr_CA": "Carrières Caviar",
+            "fr_FR": "Carrières Caviar",
+            "it_IT": "Miniera d'Orata",
+            "ja_JP": "ショッツル",
+            "nl_NL": "Grondelgroeve",
+            "ru_RU": "Пираньев карьер"
+        },
+        "area": 3081,
+        "release_at": {
+            "time": 1522461600,
+            "iso8601": "2018-03-31T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "mongara",
+        "splatnet": 16,
+        "name": {
+            "de_DE": "Camp Schützenfisch",
+            "en_GB": "Camp Triggerfish",
+            "en_US": "Camp Triggerfish",
+            "es_ES": "Campamento Arowana",
+            "es_MX": "Campamento Arowana",
+            "fr_CA": "Hippo-Camping",
+            "fr_FR": "Hippo-Camping",
+            "it_IT": "Campeggio Totan",
+            "ja_JP": "モンガラキャンプ場",
+            "nl_NL": "Kamp Karper",
+            "ru_RU": "База «Спинорог»"
+        },
+        "short_name": {
+            "de_DE": "Camp Schützenfisch",
+            "en_GB": "Camp",
+            "en_US": "Camp",
+            "es_ES": "Campamento Arowana",
+            "es_MX": "Campamento Arowana",
+            "fr_CA": "Hippo-Camping",
+            "fr_FR": "Hippo-Camping",
+            "it_IT": "Campeggio Totan",
+            "ja_JP": "モンガラ",
+            "nl_NL": "Kamp Karper",
+            "ru_RU": "База «Спинорог»"
+        },
+        "area": 2338,
+        "release_at": {
+            "time": 1524621600,
+            "iso8601": "2018-04-25T02:00:00+00:00"
+        }
+    },
+    {
+        "key": "sumeshi",
+        "splatnet": 20,
+        "name": {
+            "de_DE": "Flunder-Funpark",
+            "en_GB": "Wahoo World",
+            "en_US": "Wahoo World",
+            "es_ES": "Pirañalandia",
+            "es_MX": "Pirañalandia",
+            "fr_CA": "Parc Carapince",
+            "fr_FR": "Parc Carapince",
+            "it_IT": "Soglioland",
+            "ja_JP": "スメーシーワールド",
+            "nl_NL": "Waterwonderland",
+            "ru_RU": "Луна-парк «Язь»"
+        },
+        "short_name": {
+            "de_DE": "Flunder-Funpark",
+            "en_GB": "World",
+            "en_US": "World",
+            "es_ES": "Pirañalandia",
+            "es_MX": "Pirañalandia",
+            "fr_CA": "Parc Carapince",
+            "fr_FR": "Parc Carapince",
+            "it_IT": "Soglioland",
+            "ja_JP": "スメーシー",
+            "nl_NL": "Waterwonderland",
+            "ru_RU": "Луна-парк «Язь»"
+        },
+        "area": 2858,
+        "release_at": {
+            "time": 1527811200,
+            "iso8601": "2018-06-01T00:00:00+00:00"
+        }
+    },
+    {
+        "key": "otoro",
+        "splatnet": 19,
+        "name": {
+            "de_DE": "Hotel Neothun",
+            "en_GB": "New Albacore Hotel",
+            "en_US": "New Albacore Hotel",
+            "es_ES": "Gran Hotel Caviar",
+            "es_MX": "Gran Hotel Caviar",
+            "fr_CA": "Hôtel Atoll",
+            "fr_FR": "Hôtel Atoll",
+            "it_IT": "Hotel Tellina",
+            "ja_JP": "ホテルニューオートロ",
+            "nl_NL": "Hotel de Keizersvis",
+            "ru_RU": "Отель «Прибой»"
+        },
+        "short_name": {
+            "de_DE": "Hotel Neothun",
+            "en_GB": "Hotel",
+            "en_US": "Hotel",
+            "es_ES": "Gran Hotel Caviar",
+            "es_MX": "Gran Hotel Caviar",
+            "fr_CA": "Hôtel Atoll",
+            "fr_FR": "Hôtel Atoll",
+            "it_IT": "Hotel Tellina",
+            "ja_JP": "オートロ",
+            "nl_NL": "Hotel de Keizersvis",
+            "ru_RU": "Отель «Прибой»"
+        },
+        "area": 2405,
+        "release_at": {
+            "time": 1530403200,
+            "iso8601": "2018-07-01T00:00:00+00:00"
+        }
+    },
+    {
+        "key": "anchovy",
+        "splatnet": 21,
+        "name": {
+            "de_DE": "Anchobit Games HQ",
+            "en_GB": "Ancho-V Games",
+            "en_US": "Ancho-V Games",
+            "es_ES": "Estudios Esturión",
+            "es_MX": "Estudios Esturión",
+            "fr_CA": "Tentatec Studio",
+            "fr_FR": "Tentatec Studio",
+            "it_IT": "Acciugames",
+            "ja_JP": "アンチョビットゲームズ",
+            "nl_NL": "Ansjobit-gamestudio",
+            "ru_RU": "«Гуппи-Геймдев»"
+        },
+        "short_name": {
+            "de_DE": "Anchobit Games HQ",
+            "en_GB": "Games",
+            "en_US": "Games",
+            "es_ES": "Estudios Esturión",
+            "es_MX": "Estudios Esturión",
+            "fr_CA": "Tentatec Studio",
+            "fr_FR": "Tentatec Studio",
+            "it_IT": "AcciuGames",
+            "ja_JP": "アンチョビ",
+            "nl_NL": "Ansjobit-gamestudio",
+            "ru_RU": "Гуппи-Геймдев"
+        },
+        "area": null,
+        "release_at": {
+            "time": 1533081600,
+            "iso8601": "2018-08-01T00:00:00+00:00"
+        }
+    },
+    {
+        "key": "mutsugoro",
+        "splatnet": 22,
+        "name": {
+            "de_DE": "Grundel-Pavillon",
+            "en_GB": "Skipper Pavilion",
+            "en_US": "Skipper Pavilion",
+            "es_ES": "Puerta del Gobio",
+            "es_MX": "Puerta del Gobio",
+            "fr_CA": "Lagune aux gobies",
+            "fr_FR": "Lagune aux gobies",
+            "it_IT": "Padiglione Capitone",
+            "ja_JP": "ムツゴ楼",
+            "nl_NL": "Palingpaviljoen",
+            "ru_RU": "Парк «Во Сток!»"
+        },
+        "short_name": {
+            "de_DE": "Grundel-Pavillon",
+            "en_GB": "Pavilion",
+            "en_US": "Pavilion",
+            "es_ES": "Puerta del Gobio",
+            "es_MX": "Puerta del Gobio",
+            "fr_CA": "Lagune aux gobies",
+            "fr_FR": "Lagune aux gobies",
+            "it_IT": "Padiglione Capitone",
+            "ja_JP": "ムツゴ楼",
+            "nl_NL": "Palingpaviljoen",
+            "ru_RU": "Парк «Во Сток»"
+        },
+        "area": null,
+        "release_at": null
+    },
+    {
+        "key": "mystery_01",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Wayslide Cool",
+            "en_GB": "Shifty: Wayslide Cool",
+            "en_US": "Shifty: Wayslide Cool",
+            "es_ES": "Shifty: Wayslide Cool",
+            "es_MX": "Shifty: Wayslide Cool",
+            "fr_CA": "Shifty: Wayslide Cool",
+            "fr_FR": "Shifty: Wayslide Cool",
+            "it_IT": "Shifty: Wayslide Cool",
+            "ja_JP": "ミステリ: 追憶のスライド",
+            "nl_NL": "Shifty: Wayslide Cool",
+            "ru_RU": "Shifty: Wayslide Cool"
+        },
+        "short_name": {
+            "de_DE": "Shifty 1",
+            "en_GB": "Shifty 1",
+            "en_US": "Shifty 1",
+            "es_ES": "Shifty 1",
+            "es_MX": "Shifty 1",
+            "fr_CA": "Shifty 1",
+            "fr_FR": "Shifty 1",
+            "it_IT": "Shifty 1",
+            "ja_JP": "ﾐｽﾃﾘ:スライド",
+            "nl_NL": "Shifty 1",
+            "ru_RU": "Shifty 1"
+        },
+        "area": 2011,
+        "release_at": {
+            "time": 1501826400,
+            "iso8601": "2017-08-04T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_02",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: The Secret of S.P.L.A.T.",
+            "en_GB": "Shifty: The Secret of S.P.L.A.T.",
+            "en_US": "Shifty: The Secret of S.P.L.A.T.",
+            "es_ES": "Shifty: The Secret of S.P.L.A.T.",
+            "es_MX": "Shifty: The Secret of S.P.L.A.T.",
+            "fr_CA": "Shifty: The Secret of S.P.L.A.T.",
+            "fr_FR": "Shifty: The Secret of S.P.L.A.T.",
+            "it_IT": "Shifty: The Secret of S.P.L.A.T.",
+            "ja_JP": "ミステリ: 約束の丘で会いましょう",
+            "nl_NL": "Shifty: The Secret of S.P.L.A.T.",
+            "ru_RU": "Shifty: The Secret of S.P.L.A.T."
+        },
+        "short_name": {
+            "de_DE": "Shifty 2",
+            "en_GB": "Shifty 2",
+            "en_US": "Shifty 2",
+            "es_ES": "Shifty 2",
+            "es_MX": "Shifty 2",
+            "fr_CA": "Shifty 2",
+            "fr_FR": "Shifty 2",
+            "it_IT": "Shifty 2",
+            "ja_JP": "ﾐｽﾃﾘ:約束の丘",
+            "nl_NL": "Shifty 2",
+            "ru_RU": "Shifty 2"
+        },
+        "area": 1885,
+        "release_at": {
+            "time": 1504324800,
+            "iso8601": "2017-09-02T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_03",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Goosponge",
+            "en_GB": "Shifty: Goosponge",
+            "en_US": "Shifty: Goosponge",
+            "es_ES": "Shifty: Goosponge",
+            "es_MX": "Shifty: Goosponge",
+            "fr_CA": "Shifty: Goosponge",
+            "fr_FR": "Shifty: Goosponge",
+            "it_IT": "Shifty: Goosponge",
+            "ja_JP": "ミステリ: ハンサムなスポンジ",
+            "nl_NL": "Shifty: Goosponge",
+            "ru_RU": "Shifty: Goosponge"
+        },
+        "short_name": {
+            "de_DE": "Shifty 3",
+            "en_GB": "Shifty 3",
+            "en_US": "Shifty 3",
+            "es_ES": "Shifty 3",
+            "es_MX": "Shifty 3",
+            "fr_CA": "Shifty 3",
+            "fr_FR": "Shifty 3",
+            "it_IT": "Shifty 3",
+            "ja_JP": "ﾐｽﾃﾘ:スポンジ ",
+            "nl_NL": "Shifty 3",
+            "ru_RU": "Shifty 3"
+        },
+        "area": 1900,
+        "release_at": {
+            "time": 1504936800,
+            "iso8601": "2017-09-09T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_04",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Windmill House on the Pearlie",
+            "en_GB": "Shifty: Windmill House on the Pearlie",
+            "en_US": "Shifty: Windmill House on the Pearlie",
+            "es_ES": "Shifty: Windmill House on the Pearlie",
+            "es_MX": "Shifty: Windmill House on the Pearlie",
+            "fr_CA": "Shifty: Windmill House on the Pearlie",
+            "fr_FR": "Shifty: Windmill House on the Pearlie",
+            "it_IT": "Shifty: Windmill House on the Pearlie",
+            "ja_JP": "ミステリ: ウィンドミル・キス",
+            "nl_NL": "Shifty: Windmill House on the Pearlie",
+            "ru_RU": "Shifty: Windmill House on the Pearlie"
+        },
+        "short_name": {
+            "de_DE": "Shifty 4",
+            "en_GB": "Shifty 4",
+            "en_US": "Shifty 4",
+            "es_ES": "Shifty 4",
+            "es_MX": "Shifty 4",
+            "fr_CA": "Shifty 4",
+            "fr_FR": "Shifty 4",
+            "it_IT": "Shifty 4",
+            "ja_JP": "ﾐｽﾃﾘ:ウィンドミル",
+            "nl_NL": "Shifty 4",
+            "ru_RU": "Shifty 4"
+        },
+        "area": 2061,
+        "release_at": {
+            "time": 1507953600,
+            "iso8601": "2017-10-14T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_05",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Fancy Spew",
+            "en_GB": "Shifty: Fancy Spew",
+            "en_US": "Shifty: Fancy Spew",
+            "es_ES": "Shifty: Fancy Spew",
+            "es_MX": "Shifty: Fancy Spew",
+            "fr_CA": "Shifty: Fancy Spew",
+            "fr_FR": "Shifty: Fancy Spew",
+            "it_IT": "Shifty: Fancy Spew",
+            "ja_JP": "ミステリ: バーの一族",
+            "nl_NL": "Shifty: Fancy Spew",
+            "ru_RU": "Shifty: Fancy Spew"
+        },
+        "short_name": {
+            "de_DE": "Shifty 5",
+            "en_GB": "Shifty 5",
+            "en_US": "Shifty 5",
+            "es_ES": "Shifty 5",
+            "es_MX": "Shifty 5",
+            "fr_CA": "Shifty 5",
+            "fr_FR": "Shifty 5",
+            "it_IT": "Shifty 5",
+            "ja_JP": "ﾐｽﾃﾘ:バー",
+            "nl_NL": "Shifty 5",
+            "ru_RU": "Shifty 5"
+        },
+        "area": 2455,
+        "release_at": {
+            "time": 1512799200,
+            "iso8601": "2017-12-09T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_06",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Zone of Glass",
+            "en_GB": "Shifty: Zone of Glass",
+            "en_US": "Shifty: Zone of Glass",
+            "es_ES": "Shifty: Zone of Glass",
+            "es_MX": "Shifty: Zone of Glass",
+            "fr_CA": "Shifty: Zone of Glass",
+            "fr_FR": "Shifty: Zone of Glass",
+            "it_IT": "Shifty: Zone of Glass",
+            "ja_JP": "ミステリ: トランスペアレント・ボーイ",
+            "nl_NL": "Shifty: Zone of Glass",
+            "ru_RU": "Shifty: Zone of Glass"
+        },
+        "short_name": {
+            "de_DE": "Shifty 6",
+            "en_GB": "Shifty 6",
+            "en_US": "Shifty 6",
+            "es_ES": "Shifty 6",
+            "es_MX": "Shifty 6",
+            "fr_CA": "Shifty 6",
+            "fr_FR": "Shifty 6",
+            "it_IT": "Shifty 6",
+            "ja_JP": "ﾐｽﾃﾘ:透明",
+            "nl_NL": "Shifty 6",
+            "ru_RU": "Shifty 6"
+        },
+        "area": 2027,
+        "release_at": {
+            "time": 1515816000,
+            "iso8601": "2018-01-13T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_07",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Cannon Fire Pearl",
+            "en_GB": "Shifty: Cannon Fire Pearl",
+            "en_US": "Shifty: Cannon Fire Pearl",
+            "es_ES": "Shifty: Cannon Fire Pearl",
+            "es_MX": "Shifty: Cannon Fire Pearl",
+            "fr_CA": "Shifty: Cannon Fire Pearl",
+            "fr_FR": "Shifty: Cannon Fire Pearl",
+            "it_IT": "Shifty: Cannon Fire Pearl",
+            "ja_JP": "ミステリ: ヒメちゃんのキャノン",
+            "nl_NL": "Shifty: Cannon Fire Pearl",
+            "ru_RU": "Shifty: Cannon Fire Pearl"
+        },
+        "short_name": {
+            "de_DE": "Shifty 7",
+            "en_GB": "Shifty 7",
+            "en_US": "Shifty 7",
+            "es_ES": "Shifty 7",
+            "es_MX": "Shifty 7",
+            "fr_CA": "Shifty 7",
+            "fr_FR": "Shifty 7",
+            "it_IT": "Shifty 7",
+            "ja_JP": "ﾐｽﾃﾘ:キャノン",
+            "nl_NL": "Shifty 7",
+            "ru_RU": "Shifty 7"
+        },
+        "area": 2390,
+        "release_at": {
+            "time": 1517637600,
+            "iso8601": "2018-02-03T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_08",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: The Bunker Games",
+            "en_GB": "Shifty: The Bunker Games",
+            "en_US": "Shifty: The Bunker Games",
+            "es_ES": "Shifty: The Bunker Games",
+            "es_MX": "Shifty: The Bunker Games",
+            "fr_CA": "Shifty: The Bunker Games",
+            "fr_FR": "Shifty: The Bunker Games",
+            "it_IT": "Shifty: The Bunker Games",
+            "ja_JP": "ミステリ: トジトジ",
+            "nl_NL": "Shifty: The Bunker Games",
+            "ru_RU": "Shifty: The Bunker Games"
+        },
+        "short_name": {
+            "de_DE": "Shifty 8",
+            "en_GB": "Shifty 8",
+            "en_US": "Shifty 8",
+            "es_ES": "Shifty 8",
+            "es_MX": "Shifty 8",
+            "fr_CA": "Shifty 8",
+            "fr_FR": "Shifty 8",
+            "it_IT": "Shifty 8",
+            "ja_JP": "ﾐｽﾃﾘ:ドジドジ",
+            "nl_NL": "Shifty 8",
+            "ru_RU": "Shifty 8"
+        },
+        "area": 2770,
+        "release_at": {
+            "time": 1520056800,
+            "iso8601": "2018-03-03T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_09",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Grapplink Girl",
+            "en_GB": "Shifty: Grapplink Girl",
+            "en_US": "Shifty: Grapplink Girl",
+            "es_ES": "Shifty: Grapplink Girl",
+            "es_MX": "Shifty: Grapplink Girl",
+            "fr_CA": "Shifty: Grapplink Girl",
+            "fr_FR": "Shifty: Grapplink Girl",
+            "it_IT": "Shifty: Grapplink Girl",
+            "ja_JP": "ミステリ: イタズラなヒキヨセ",
+            "nl_NL": "Shifty: Grapplink Girl",
+            "ru_RU": "Shifty: Grapplink Girl"
+        },
+        "short_name": {
+            "de_DE": "Shifty 9",
+            "en_GB": "Shifty 9",
+            "en_US": "Shifty 9",
+            "es_ES": "Shifty 9",
+            "es_MX": "Shifty 9",
+            "fr_CA": "Shifty 9",
+            "fr_FR": "Shifty 9",
+            "it_IT": "Shifty 9",
+            "ja_JP": "ﾐｽﾃﾘ:ヒキヨセ",
+            "nl_NL": "Shifty 9",
+            "ru_RU": "Shifty 9"
+        },
+        "area": 2199,
+        "release_at": {
+            "time": 1521871200,
+            "iso8601": "2018-03-24T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_10",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Zappy Longshocking",
+            "en_GB": "Shifty: Zappy Longshocking",
+            "en_US": "Shifty: Zappy Longshocking",
+            "es_ES": "Shifty: Zappy Longshocking",
+            "es_MX": "Shifty: Zappy Longshocking",
+            "fr_CA": "Shifty: Zappy Longshocking",
+            "fr_FR": "Shifty: Zappy Longshocking",
+            "it_IT": "Shifty: Zappy Longshocking",
+            "ja_JP": "ミステリ: あしたはデンデン",
+            "nl_NL": "Shifty: Zappy Longshocking",
+            "ru_RU": "Shifty: Zappy Longshocking"
+        },
+        "short_name": {
+            "de_DE": "Shifty 10",
+            "en_GB": "Shifty 10",
+            "en_US": "Shifty 10",
+            "es_ES": "Shifty 10",
+            "es_MX": "Shifty 10",
+            "fr_CA": "Shifty 10",
+            "fr_FR": "Shifty 10",
+            "it_IT": "Shifty 10",
+            "ja_JP": "ﾐｽﾃﾘ:デンデン",
+            "nl_NL": "Shifty 10",
+            "ru_RU": "Shifty 10"
+        },
+        "area": 2185,
+        "release_at": {
+            "time": 1524290400,
+            "iso8601": "2018-04-21T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_11",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: A Swiftly Tilting Balance",
+            "en_GB": "Shifty: A Swiftly Tilting Balance",
+            "en_US": "Shifty: A Swiftly Tilting Balance",
+            "es_ES": "Shifty: A Swiftly Tilting Balance",
+            "es_MX": "Shifty: A Swiftly Tilting Balance",
+            "fr_CA": "Shifty: A Swiftly Tilting Balance",
+            "fr_FR": "Shifty: A Swiftly Tilting Balance",
+            "it_IT": "Shifty: A Swiftly Tilting Balance",
+            "ja_JP": "ミステリ: 天秤ラヴァーズ",
+            "nl_NL": "Shifty: A Swiftly Tilting Balance",
+            "ru_RU": "Shifty: A Swiftly Tilting Balance"
+        },
+        "short_name": {
+            "de_DE": "Shifty 11",
+            "en_GB": "Shifty 11",
+            "en_US": "Shifty 11",
+            "es_ES": "Shifty 11",
+            "es_MX": "Shifty 11",
+            "fr_CA": "Shifty 11",
+            "fr_FR": "Shifty 11",
+            "it_IT": "Shifty 11",
+            "ja_JP": "ﾐｽﾃﾘ:天秤",
+            "nl_NL": "Shifty 11",
+            "ru_RU": "Shifty 11"
+        },
+        "area": 2300,
+        "release_at": {
+            "time": 1526702400,
+            "iso8601": "2018-05-19T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_12",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Sweet Valley Tentacles",
+            "en_GB": "Shifty: Sweet Valley Tentacles",
+            "en_US": "Shifty: Sweet Valley Tentacles",
+            "es_ES": "Shifty: Sweet Valley Tentacles",
+            "es_MX": "Shifty: Sweet Valley Tentacles",
+            "fr_CA": "Shifty: Sweet Valley Tentacles",
+            "fr_FR": "Shifty: Sweet Valley Tentacles",
+            "it_IT": "Shifty: Sweet Valley Tentacles",
+            "ja_JP": "ミステリ: たこあし注意報!",
+            "nl_NL": "Shifty: Sweet Valley Tentacles",
+            "ru_RU": "Shifty: Sweet Valley Tentacles"
+        },
+        "short_name": {
+            "de_DE": "Shifty 12",
+            "en_GB": "Shifty 12",
+            "en_US": "Shifty 12",
+            "es_ES": "Shifty 12",
+            "es_MX": "Shifty 12",
+            "fr_CA": "Shifty 12",
+            "fr_FR": "Shifty 12",
+            "it_IT": "Shifty 12",
+            "ja_JP": "ﾐｽﾃﾘ:たこあし",
+            "nl_NL": "Shifty 12",
+            "ru_RU": "Shifty 12"
+        },
+        "area": 2593,
+        "release_at": {
+            "time": 1532145600,
+            "iso8601": "2018-07-21T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_13",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: The Switches",
+            "en_GB": "Shifty: The Switches",
+            "en_US": "Shifty: The Switches",
+            "es_ES": "Shifty: The Switches",
+            "es_MX": "Shifty: The Switches",
+            "fr_CA": "Shifty: The Switches",
+            "fr_FR": "Shifty: The Switches",
+            "it_IT": "Shifty: The Switches",
+            "ja_JP": "ミステリ: ヌリとスイッチの吐息",
+            "nl_NL": "Shifty: The Switches",
+            "ru_RU": "Shifty: The Switches"
+        },
+        "short_name": {
+            "de_DE": "Shifty 13",
+            "en_GB": "Shifty 13",
+            "en_US": "Shifty 13",
+            "es_ES": "Shifty 13",
+            "es_MX": "Shifty 13",
+            "fr_CA": "Shifty 13",
+            "fr_FR": "Shifty 13",
+            "it_IT": "Shifty 13",
+            "ja_JP": "ﾐｽﾃﾘ:スイッチ",
+            "nl_NL": "Shifty 13",
+            "ru_RU": "Shifty 13"
+        },
+        "area": 2360,
+        "release_at": {
+            "time": 1534572000,
+            "iso8601": "2018-08-18T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_14",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: The Bouncey Twins",
+            "en_GB": "Shifty: The Bouncey Twins",
+            "en_US": "Shifty: The Bouncey Twins",
+            "es_ES": "Shifty: The Bouncey Twins",
+            "es_MX": "Shifty: The Bouncey Twins",
+            "fr_CA": "Shifty: The Bouncey Twins",
+            "fr_FR": "Shifty: The Bouncey Twins",
+            "it_IT": "Shifty: The Bouncey Twins",
+            "ja_JP": "ミステリ: ジャンプマットの詩",
+            "nl_NL": "Shifty: The Bouncey Twins",
+            "ru_RU": "Shifty: The Bouncey Twins"
+        },
+        "short_name": {
+            "de_DE": "Shifty 14",
+            "en_GB": "Shifty 14",
+            "en_US": "Shifty 14",
+            "es_ES": "Shifty 14",
+            "es_MX": "Shifty 14",
+            "fr_CA": "Shifty 14",
+            "fr_FR": "Shifty 14",
+            "it_IT": "Shifty 14",
+            "ja_JP": "ﾐｽﾃﾘ:マット",
+            "nl_NL": "Shifty 14",
+            "ru_RU": "Shifty 14"
+        },
+        "area": 1783,
+        "release_at": {
+            "time": 1537588800,
+            "iso8601": "2018-09-22T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_15",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Railway Chillin'",
+            "en_GB": "Shifty: Railway Chillin'",
+            "en_US": "Shifty: Railway Chillin'",
+            "es_ES": "Shifty: Railway Chillin'",
+            "es_MX": "Shifty: Railway Chillin'",
+            "fr_CA": "Shifty: Railway Chillin'",
+            "fr_FR": "Shifty: Railway Chillin'",
+            "it_IT": "Shifty: Railway Chillin'",
+            "ja_JP": "ミステリ: キミのハートにライド・オン!",
+            "nl_NL": "Shifty: Railway Chillin'",
+            "ru_RU": "Shifty: Railway Chillin'"
+        },
+        "short_name": {
+            "de_DE": "Shifty 15",
+            "en_GB": "Shifty 15",
+            "en_US": "Shifty 15",
+            "es_ES": "Shifty 15",
+            "es_MX": "Shifty 15",
+            "fr_CA": "Shifty 15",
+            "fr_FR": "Shifty 15",
+            "it_IT": "Shifty 15",
+            "ja_JP": "ﾐｽﾃﾘ:ライドオン",
+            "nl_NL": "Shifty 15",
+            "ru_RU": "Shifty 15"
+        },
+        "area": 2188,
+        "release_at": {
+            "time": 1539936000,
+            "iso8601": "2018-10-19T08:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_16",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Gusher Towns",
+            "en_GB": "Shifty: Gusher Towns",
+            "en_US": "Shifty: Gusher Towns",
+            "es_ES": "Shifty: Gusher Towns",
+            "es_MX": "Shifty: Gusher Towns",
+            "fr_CA": "Shifty: Gusher Towns",
+            "fr_FR": "Shifty: Gusher Towns",
+            "it_IT": "Shifty: Gusher Towns",
+            "ja_JP": "ミステリ: カンケツセンのばら",
+            "nl_NL": "Shifty: Gusher Towns",
+            "ru_RU": "Shifty: Gusher Towns"
+        },
+        "short_name": {
+            "de_DE": "Shifty 16",
+            "en_GB": "Shifty 16",
+            "en_US": "Shifty 16",
+            "es_ES": "Shifty 16",
+            "es_MX": "Shifty 16",
+            "fr_CA": "Shifty 16",
+            "fr_FR": "Shifty 16",
+            "it_IT": "Shifty 16",
+            "ja_JP": "ﾐｽﾃﾘ:間欠泉",
+            "nl_NL": "Shifty 16",
+            "ru_RU": "Shifty 16"
+        },
+        "area": 2297,
+        "release_at": {
+            "time": 1541829600,
+            "iso8601": "2018-11-10T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_17",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: The Maze Dasher",
+            "en_GB": "Shifty: The Maze Dasher",
+            "en_US": "Shifty: The Maze Dasher",
+            "es_ES": "Shifty: The Maze Dasher",
+            "es_MX": "Shifty: The Maze Dasher",
+            "fr_CA": "Shifty: The Maze Dasher",
+            "fr_FR": "Shifty: The Maze Dasher",
+            "it_IT": "Shifty: The Maze Dasher",
+            "ja_JP": "ミステリ: 恋はダッシュ×3",
+            "nl_NL": "Shifty: The Maze Dasher",
+            "ru_RU": "Shifty: The Maze Dasher"
+        },
+        "short_name": {
+            "de_DE": "Shifty 17",
+            "en_GB": "Shifty 17",
+            "en_US": "Shifty 17",
+            "es_ES": "Shifty 17",
+            "es_MX": "Shifty 17",
+            "fr_CA": "Shifty 17",
+            "fr_FR": "Shifty 17",
+            "it_IT": "Shifty 17",
+            "ja_JP": "ﾐｽﾃﾘ:ダッシュ",
+            "nl_NL": "Shifty 17",
+            "ru_RU": "Shifty 17"
+        },
+        "area": 2327,
+        "release_at": {
+            "time": 1544846400,
+            "iso8601": "2018-12-15T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_18",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Flooders in the Attic",
+            "en_GB": "Shifty: Flooders in the Attic",
+            "en_US": "Shifty: Flooders in the Attic",
+            "es_ES": "Shifty: Flooders in the Attic",
+            "es_MX": "Shifty: Flooders in the Attic",
+            "fr_CA": "Shifty: Flooders in the Attic",
+            "fr_FR": "Shifty: Flooders in the Attic",
+            "it_IT": "Shifty: Flooders in the Attic",
+            "ja_JP": "ミステリ: ドーザームーン",
+            "nl_NL": "Shifty: Flooders in the Attic",
+            "ru_RU": "Shifty: Flooders in the Attic"
+        },
+        "short_name": {
+            "de_DE": "Shifty 18",
+            "en_GB": "Shifty 18",
+            "en_US": "Shifty 18",
+            "es_ES": "Shifty 18",
+            "es_MX": "Shifty 18",
+            "fr_CA": "Shifty 18",
+            "fr_FR": "Shifty 18",
+            "it_IT": "Shifty 18",
+            "ja_JP": "ﾐｽﾃﾘ:ドーザー",
+            "nl_NL": "Shifty 18",
+            "ru_RU": "Shifty 18"
+        },
+        "area": 2254,
+        "release_at": {
+            "time": 1546588800,
+            "iso8601": "2019-01-04T08:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_19",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: The Splat in Our Zones",
+            "en_GB": "Shifty: The Splat in Our Zones",
+            "en_US": "Shifty: The Splat in Our Zones",
+            "es_ES": "Shifty: The Splat in Our Zones",
+            "es_MX": "Shifty: The Splat in Our Zones",
+            "fr_CA": "Shifty: The Splat in Our Zones",
+            "fr_FR": "Shifty: The Splat in Our Zones",
+            "it_IT": "Shifty: The Splat in Our Zones",
+            "ja_JP": "ミステリ: クイックバスケット",
+            "nl_NL": "Shifty: The Splat in Our Zones",
+            "ru_RU": "Shifty: The Splat in Our Zones"
+        },
+        "short_name": {
+            "de_DE": "Shifty 19",
+            "en_GB": "Shifty 19",
+            "en_US": "Shifty 19",
+            "es_ES": "Shifty 19",
+            "es_MX": "Shifty 19",
+            "fr_CA": "Shifty 19",
+            "fr_FR": "Shifty 19",
+            "it_IT": "Shifty 19",
+            "ja_JP": "ﾐｽﾃﾘ:バスケット",
+            "nl_NL": "Shifty 19",
+            "ru_RU": "Shifty 19"
+        },
+        "area": 2583,
+        "release_at": {
+            "time": 1549087200,
+            "iso8601": "2019-02-02T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_20",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: The Ink is Spreading",
+            "en_GB": "Shifty: The Ink is Spreading",
+            "en_US": "Shifty: The Ink is Spreading",
+            "es_ES": "Shifty: The Ink is Spreading",
+            "es_MX": "Shifty: The Ink is Spreading",
+            "fr_CA": "Shifty: The Ink is Spreading",
+            "fr_FR": "Shifty: The Ink is Spreading",
+            "it_IT": "Shifty: The Ink is Spreading",
+            "ja_JP": "ミステリ: ヌリヌリトゥナイト",
+            "nl_NL": "Shifty: The Ink is Spreading",
+            "ru_RU": "Shifty: The Ink is Spreading"
+        },
+        "short_name": {
+            "de_DE": "Shifty 20",
+            "en_GB": "Shifty 20",
+            "en_US": "Shifty 20",
+            "es_ES": "Shifty 20",
+            "es_MX": "Shifty 20",
+            "fr_CA": "Shifty 20",
+            "fr_FR": "Shifty 20",
+            "it_IT": "Shifty 20",
+            "ja_JP": "ﾐｽﾃﾘ:ヌリヌリ",
+            "nl_NL": "Shifty 20",
+            "ru_RU": "Shifty 20"
+        },
+        "area": 2259,
+        "release_at": {
+            "time": 1552708800,
+            "iso8601": "2019-03-16T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_21",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Bridge to Tentaswitchia",
+            "en_GB": "Shifty: Bridge to Tentaswitchia",
+            "en_US": "Shifty: Bridge to Tentaswitchia",
+            "es_ES": "Shifty: Bridge to Tentaswitchia",
+            "es_MX": "Shifty: Bridge to Tentaswitchia",
+            "fr_CA": "Shifty: Bridge to Tentaswitchia",
+            "fr_FR": "Shifty: Bridge to Tentaswitchia",
+            "it_IT": "Shifty: Bridge to Tentaswitchia",
+            "ja_JP": "ミステリ: ビッグ゠パネルが止まらない",
+            "nl_NL": "Shifty: Bridge to Tentaswitchia",
+            "ru_RU": "Shifty: Bridge to Tentaswitchia"
+        },
+        "short_name": {
+            "de_DE": "Shifty 21",
+            "en_GB": "Shifty 21",
+            "en_US": "Shifty 21",
+            "es_ES": "Shifty 21",
+            "es_MX": "Shifty 21",
+            "fr_CA": "Shifty 21",
+            "fr_FR": "Shifty 21",
+            "it_IT": "Shifty 21",
+            "ja_JP": "ﾐｽﾃﾘ:ビッグパネル",
+            "nl_NL": "Shifty 21",
+            "ru_RU": "Shifty 21"
+        },
+        "area": 2832,
+        "release_at": {
+            "time": 1555660800,
+            "iso8601": "2019-04-19T08:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_22",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: The Chronicles of Rolonium",
+            "en_GB": "Shifty: The Chronicles of Rolonium",
+            "en_US": "Shifty: The Chronicles of Rolonium",
+            "es_ES": "Shifty: The Chronicles of Rolonium",
+            "es_MX": "Shifty: The Chronicles of Rolonium",
+            "fr_CA": "Shifty: The Chronicles of Rolonium",
+            "fr_FR": "Shifty: The Chronicles of Rolonium",
+            "it_IT": "Shifty: The Chronicles of Rolonium",
+            "ja_JP": "ミステリ: 思い出コロガリウム",
+            "nl_NL": "Shifty: The Chronicles of Rolonium",
+            "ru_RU": "Shifty: The Chronicles of Rolonium"
+        },
+        "short_name": {
+            "de_DE": "Shifty 22",
+            "en_GB": "Shifty 22",
+            "en_US": "Shifty 22",
+            "es_ES": "Shifty 22",
+            "es_MX": "Shifty 22",
+            "fr_CA": "Shifty 22",
+            "fr_FR": "Shifty 22",
+            "it_IT": "Shifty 22",
+            "ja_JP": "ﾐｽﾃﾘ:コロガリウム",
+            "nl_NL": "Shifty 22",
+            "ru_RU": "Shifty 22"
+        },
+        "area": 2059,
+        "release_at": {
+            "time": 1557554400,
+            "iso8601": "2019-05-11T06:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_23",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: Furler in the Ashes",
+            "en_GB": "Shifty: Furler in the Ashes",
+            "en_US": "Shifty: Furler in the Ashes",
+            "es_ES": "Shifty: Furler in the Ashes",
+            "es_MX": "Shifty: Furler in the Ashes",
+            "fr_CA": "Shifty: Furler in the Ashes",
+            "fr_FR": "Shifty: Furler in the Ashes",
+            "it_IT": "Shifty: Furler in the Ashes",
+            "ja_JP": "ミステリ: ピロピロなんかじゃない",
+            "nl_NL": "Shifty: Furler in the Ashes",
+            "ru_RU": "Shifty: Furler in the Ashes"
+        },
+        "short_name": {
+            "de_DE": "Shifty 23",
+            "en_GB": "Shifty 23",
+            "en_US": "Shifty 23",
+            "es_ES": "Shifty 23",
+            "es_MX": "Shifty 23",
+            "fr_CA": "Shifty 23",
+            "fr_FR": "Shifty 23",
+            "it_IT": "Shifty 23",
+            "ja_JP": "ﾐｽﾃﾘ:ピロピロ",
+            "nl_NL": "Shifty 23",
+            "ru_RU": "Shifty 23"
+        },
+        "area": 2373,
+        "release_at": {
+            "time": 1560571200,
+            "iso8601": "2019-06-15T04:00:00+00:00"
+        }
+    },
+    {
+        "key": "mystery_24",
+        "splatnet": null,
+        "name": {
+            "de_DE": "Shifty: MC.Princess Diaries",
+            "en_GB": "Shifty: MC.Princess Diaries",
+            "en_US": "Shifty: MC.Princess Diaries",
+            "es_ES": "Shifty: MC.Princess Diaries",
+            "es_MX": "Shifty: MC.Princess Diaries",
+            "fr_CA": "Shifty: MC.Princess Diaries",
+            "fr_FR": "Shifty: MC.Princess Diaries",
+            "it_IT": "Shifty: MC.Princess Diaries",
+            "ja_JP": "ミステリ: DEAR SENPAI",
+            "nl_NL": "Shifty: MC.Princess Diaries",
+            "ru_RU": "Shifty: MC.Princess Diaries"
+        },
+        "short_name": {
+            "de_DE": "Shifty 24",
+            "en_GB": "Shifty 24",
+            "en_US": "Shifty 24",
+            "es_ES": "Shifty 24",
+            "es_MX": "Shifty 24",
+            "fr_CA": "Shifty 24",
+            "fr_FR": "Shifty 24",
+            "it_IT": "Shifty 24",
+            "ja_JP": "ﾐｽﾃﾘ:センパイ",
+            "nl_NL": "Shifty 24",
+            "ru_RU": "Shifty 24"
+        },
+        "area": null,
+        "release_at": {
+            "time": 1563537600,
+            "iso8601": "2019-07-19T12:00:00+00:00"
+        }
+    }
+]
