@@ -4,6 +4,8 @@
 
 -Data currently stored as a large batch of csv's, possibly create a database.
 
+-Data schema can be found here https://github.com/fetus-hina/stat.ink/blob/master/doc/api-2/download-battle-csv.md
+
 -Predict win rate by modeling binary win/loss and using predict percent.
 
 -Try using random forests, gradient boosting, and neural networks.
