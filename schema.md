@@ -1,6 +1,7 @@
 Schema
 ------
 -`alpha` are "Good Guys" and `B`, `bravo` are "Bad Guys".
+
 -`A1` is a stat.ink user (posted the battle). If you use this player's result, statistics may not be correct.
 
 | column # | column name | example | meaning |
