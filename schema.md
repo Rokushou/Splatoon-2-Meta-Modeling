@@ -1,5 +1,7 @@
 Schema
 ------
+- This is the schema of the csv's contained in data/raw
+
 -`alpha` are "Good Guys" and `B`, `bravo` are "Bad Guys".
 
 -`A1` is a stat.ink user (posted the battle). If you use this player's result, statistics may not be correct.
