@@ -1,6 +1,6 @@
 Schema
 ------
-- This is the schema of the csv's contained in data/raw
+This is the schema of the csv's contained in `data/raw`, this table and the data are both from stat.ink.
 
 -`alpha` are "Good Guys" and `B`, `bravo` are "Bad Guys".
 
