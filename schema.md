@@ -2,19 +2,17 @@ Schema
 ------
 This is the schema of the csv's contained in `data/raw`, this table and the data are both from stat.ink.
 
--`alpha` are "Good Guys" and `B`, `bravo` are "Bad Guys".
-
--`A1` is a stat.ink user (posted the battle). If you use this player's result, statistics may not be correct.
+-`A1` is the user that submitted the data.
 
 | column # | column name | example | meaning |
 |----------|-------------|---------|---------|
-|  0 | period | `2018-07-01T00:00:00+00:00` | Indicates which period is. |
+|  0 | period | `2018-07-01T00:00:00+00:00` | Indicates the period which the match took place. |
 |  1 | game-ver | `3.1.0` | Indicates official game version. |
 |  2 | lobby-mode | `regular` | `regular`: Regular battle<br>`gachi`: Ranked battle<br>`fest`: Splatfest |
 |  3 | lobby | `standard` | `standard`: Solo Queue <br>`squad_2` `squad_4`: League(Ranked)/Team(Splatfest)<br>`private`: Private battle |
 |  4 | mode | `nawabari` | `nawabari`: Turf War<br>`area`: Splat Zones<br>`yagura`: Tower Control<br>`hoko`: Raimaker<br>`asari`: Clam Blitz |
 |  5 | stage | `battera` | [Stage](https://stat.ink/api-info/stage2) |
-|  6 | time | `180` | Time length of the battle (seconds) |
+|  6 | time | `180` | Length of the battle (seconds) |
 |  7 | win | `alpha` | `alpha`: A team won<br>`bravo`: B team won |
 |  8 | knockout | `TRUE` | `TRUE`: Knocked out<br>`FALSE`: Time was up<br>empty: unknown or Turf War |
 |  9 | A1-weapon | `wakaba` | [Weapon](https://stat.ink/api-info/weapon2) |
