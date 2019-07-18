@@ -76,17 +76,17 @@ def splatoon_explode(df, drop=True):
     # return new koalas database
     return pd.DataFrame(list(tmp), columns=new_cols)
 
-'''main'''
-# create paths
-in_path = os.path.join(os.pardir, 'data/raw/')
-out_path = os.path.join(os.pardir , 'data/dump/')
-# get length of path for slicing filename out of path
-l = len(in_path)
-# get list of files
-files = glob.glob(os.path.join(in_path, '*.csv'))
-# process and pickle every file
-for file in files:
-    filename = file[l:-4] + '.pkl'
-    splatoon_explode(splatoon_drop(pd.read_csv(file))).to_pickle(out_path + filename)
-    # print progress
-    print('Created ' + filename)
+if __name__ == '__main__':
+    # create paths
+    in_path = os.path.join(os.pardir, 'data/raw/')
+    out_path = os.path.join(os.pardir , 'data/dump/')
+    # get length of path for slicing filename out of path
+    l = len(in_path)
+    # get list of files
+    files = glob.glob(os.path.join(in_path, '*.csv'))
+    # process and pickle every file
+    for file in files:
+        filename = file[l:-4] + '.pkl'
+        splatoon_explode(splatoon_drop(pd.read_csv(file))).to_pickle(out_path + filename)
+        # print progress
+        print('Created ' + filename)
