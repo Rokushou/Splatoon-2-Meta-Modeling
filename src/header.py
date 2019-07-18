@@ -43,7 +43,7 @@ font = {'size':16}
 #from sklearn.decomposition import PCA, NMF
 #from sklearn.cluster import KMeans
 #from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
-import skimage
+#import skimage
 '''TENSORFLOW'''
 #import tensorflow as tf
 '''NLTK'''
