@@ -78,8 +78,8 @@ def splatoon_explode(df, drop=True):
 
 if __name__ == '__main__':
     # create paths
-    in_path = os.path.join(os.pardir, 'data/raw/')
-    out_path = os.path.join(os.pardir , 'data/dump/')
+    in_path = 'data/raw/'
+    out_path = 'data/dump/'
     # get length of path for slicing filename out of path
     l = len(in_path)
     # get list of files
