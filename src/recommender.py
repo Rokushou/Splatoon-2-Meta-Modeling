@@ -6,7 +6,8 @@ class ItemRecommender():
     '''
     Content based item recommender
     '''
-    def __init__(self, similarity_measure=None):
+    def __init__(self, similarity_measure=None, path='data/score.pkl'):
+        self.score = pd.read_pickle(path)
         self.similarity_matrix = None
         self.item_names = None
 
@@ -101,3 +102,45 @@ class ItemRecommender():
         user_sim =  self.similarity_measure(self.item_counts, user_profile.reshape(1,-1))
 
         return self.item_names[user_sim[:,0].argsort()[-(num_items+n):-num_items]].values[::-1]
+
+    def get_weapon_recommendation(self, weapon, modes='Turf War'):
+        '''
+        Takes a list of movies user liked and returns the top n items for that user
+
+        INPUT
+            items  -   LIST - list of movie names user likes / has seen
+            n -  INT - number of items to return
+
+        OUTPUT
+            items - LIST - n recommended items
+
+
+        Make
+        '''
+        # data assignement shenanigans
+        if type(weapon) == str:
+            weapon = [weapon]
+        if modes == 'debug':
+            modes = ['Turf War', 'Splat Zones', 'Tower Control', 'Rainmaker', 'Clam Blitz']
+        elif type(modes) == str:
+            modes = [modes]
+
+        # loop through every mode
+        for mode in modes:
+            # get predictions
+            recs = self.get_user_recommendation(weapon, 10)
+            # take predictions from scored list and sort by winrate
+            recs = self.score[self.score.key.isin(recs)].sort_values(mode + '_winrate', ascending=False)
+            # get the name of the highest winrate weapon
+            best = recs.key.iloc[0]
+
+            # calculate % winrate increase
+            current = self.score[self.score.key.isin(weapon)].sort_values(mode + '_winrate', ascending=False).iloc[0]
+            new = float(recs[mode + '_winrate'].iloc[0])
+            percent = (new - float(current[mode + '_winrate'])) * 100
+
+            # only make a recommendation if it is an improvement
+            if percent <= 0:
+                print ('The {} is already a great choice for {}!'.format(current['key'], mode))
+            else:
+                print('Try the {} for a {:.2f}% win rate increase in {}!'.format(best, percent, mode))
