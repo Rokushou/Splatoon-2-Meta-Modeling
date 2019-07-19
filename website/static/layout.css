@@ -22,7 +22,12 @@ input {
     background-color: #A1E896;
     border: 1px solid #1FD71A;
     width: 150px;
-    ;
+}
+
+select {
+    background-color: #A1E896;
+    border: 1px solid #1FD71A;
+    width: 150px;
 }
 
 button {
@@ -30,6 +35,14 @@ button {
     display: inline-block;
     margin-right: 30px;
     width: 70px;
+}
+
+#rec {
+    background-color: #FFFFFF;
+    border: 0px solid #FFFFFF;
+    margin-top: 10px;
+    height: 150px;
+    width: 350px;
 }
 
 html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
