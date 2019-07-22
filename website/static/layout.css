@@ -62,7 +62,7 @@ select {
 }
 
 #score {
-    color: #CF0466;
+    color: #FB5C03;
     font-size: 26px;
     width: 100px;
     background-color: #FFFFFF;
@@ -71,7 +71,7 @@ select {
 }
 
 #rec {
-    color: #CF0466;
+    color: #777777;
     font-size: 16px;
     background-color: #FFFFFF;
     border: 0px solid #FFFFFF;
