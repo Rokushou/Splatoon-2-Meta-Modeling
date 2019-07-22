@@ -162,7 +162,7 @@ input, textarea, select{font-size:12px; font-family:"Lucida Sans Unicode", "Luci
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{color:#C0BAB6; background-color:#232323;}
-#header nav li a:hover{color:#FF9900; background-color:#232323;}
+#header nav li a:hover{color:#FB5C03; background-color:#232323;}
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
@@ -177,7 +177,7 @@ input, textarea, select{font-size:12px; font-family:"Lucida Sans Unicode", "Luci
 #container #slider figure{}
 #container #slider figure img{float:right; width:630px; height:300px;}
 #container #slider figure figcaption{display:block; float:left; width:280px; height:260px; padding:20px; overflow:hidden; color:#989898; background-color:#191919; line-height:1.6em;}
-#container #slider figure figcaption a{color:#FF9900; background-color:#DEDEDE;}
+#container #slider figure figcaption a{color:#FB5C03; background-color:#DEDEDE;}
 #container #slider figure h2{font-size:42px; font-weight:normal; font-style:italic; text-transform:none;}
 #container #slider figure footer{}
 
