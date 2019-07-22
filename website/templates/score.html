@@ -34,35 +34,35 @@
       <!-- / Services -->
       <section id="services" class="clear">
         <article class="two_quarter">
-          <h2><font color="#C83D79" size="4">Ink Score</font></h2>
-          <p><font color="#C83D79" size="4">Submit your post-match statistics to get an objective scoring of your performance. Track your scores from match to match to find the most optimal strategies or compare with your teammates to answer the age old question of who carried the team.*</font><br><br>*strat.ink cannot be held liable for any mismanaged anger and/or altercations caused by our scores.</p>
+          <h2><font color="#CF0466" size="4">Ink Score</font></h2>
+          <p><font size="4">Submit your post-match statistics to get an objective scoring of your performance. Track your scores from match to match to find the most optimal strategies or compare with your teammates to answer the age old question of who carried the team.*</font><br><br>*strat.ink cannot be held liable for any mismanaged anger and/or altercations caused by our scores.</p>
         </article>
         <article class="two_quarter lastbox">
-          <h2><font color="#409D3B" size="4">Enter your match results</font></h2>
+          <h2><font color="#17A80C" size="4">Enter your match results</font></h2>
           <p>Download the <a href="https://splatoon.nintendo.com/splatnet2/">Splatnet 2</a> app to access your match results.</p>
           <div id="controls">
             <div>
               <label>Kills</label>
-              <input id="kill" type="number" value="3" />
+              <input id="kill" type="number" value="0" />
             </div>
             <div>
               <label>Assists</label>
-              <input id="assist" type="number" value="5" />
+              <input id="assist" type="number" value="0" />
             </div>
             <div>
               <label>Deaths</label>
-              <input id="death" type="number" value="2" />
+              <input id="death" type="number" value="0" />
             </div>
             <div>
               <label>Specials</label>
-              <input id="special" type="number" value="3" />
+              <input id="special" type="number" value="0" />
             </div>
             <div>
               <label>Turf Inked</label>
-              <input id="inked" type="number" value="1000" />
+              <input id="inked" type="number" value="0" />
             </div>
             <div>
-              <button>Score!</button>
+              <button id="inference">&nbsp;Score&nbsp;&nbsp;&#9658;</button>
               <input id="score" type="text" readonly />
             </div>
           </div>
@@ -83,5 +83,7 @@
     <p class="fl_right">Special thanks to <a target="_blank" href="https://github.com/fetus-hina">AIZAWA Hina</a></p>
   </footer>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/static/score.js"></script>
 </body>
 </html>

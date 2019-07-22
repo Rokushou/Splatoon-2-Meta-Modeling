@@ -34,30 +34,30 @@
       <!-- / Services -->
       <section id="services" class="clear">
         <article class="two_quarter">
-          <h2><font color="#C83D79" size="4">Weapon Recommender</font></h2>
-          <p><font color="#C83D79" size="4">Like Marie's weapon fortunes but better. Tell us your favorite weapon(s) to get a recommendation based on millions of datapoints. Our recommender will not only suggest you the best weapon similar to your favorites, but will also predict a win rate increase.*</font><br><br>*Win rate increase subject to player skill.</p>
+          <h2><font color="#CF0466" size="4">Weapon Recommender</font></h2>
+          <p><font size="4">Like Marie's weapon fortunes but better. Tell us your favorite weapon(s) to get a recommendation based on millions of datapoints. Our recommender will not only suggest you the best weapon similar to your favorites, but will also predict a win rate increase.*</font><br><br>*Win rate increase subject to player skill.</p>
         </article>
         <article class="two_quarter lastbox">
-          <h2><font color="#409D3B" size="4">Enter your favorite weapon</font></h2>
-          <p>Please use the official english weapon names which can be found <a href="https://splatoonwiki.org/wiki/List_of_Weapons_in_Splatoon_2">here</a>.</p>
+          <h2><font color="#17A80C" size="4">Enter your favorite weapon</font></h2>
+          <p>Please use the official english weapon names which can be found <a href="https://splatoonwiki.org/wiki/List_of_Weapons_in_Splatoon_2">here</a>.<br>Seperate multiple entries with a comma followed by a space. ", "</p>
           <div id="controls">
             <div>
-              <label>Weapon</label>
-              <input id="weapon" type="text" value="Splattershot" />
+              <label>Weapons</label>
+              <textarea id="weapon" type="text">Splattershot, Splat Dualies</textarea>
             </div>
             <div>
-              <label>Mode</label>
-              <select name="mode">
+              <label style = "width: 40px">Mode</label>
+              <select id="mode">
                 <option value="Turf War">Turf War</option>
-                <option value="Splat Zones">Splat Zones</option>
-                <option value="Tower Control">Tower Control</option>
-                <option value="Rainmaker">Rainmaker</option>
-                <option value="Clam Blitz">Clam Blitz</option>
+                <option value="Splat Zones" type="text">Splat Zones</option>
+                <option value="Tower Control" type="text">Tower Control</option>
+                <option value="Rainmaker" type="text">Rainmaker</option>
+                <option value="Clam Blitz" type="text">Clam Blitz</option>
               </select>
             </div>
             <div>
-              <button>Submit</button>
-              <input id="rec" type="text" readonly />
+              <button id="submit">&nbsp;Recommend&nbsp;&nbsp;&#9660;</button>
+              <textarea id="rec" type="text" readonly></textarea>
             </div>
           </div>
         </article>
@@ -77,5 +77,7 @@
     <p class="fl_right">Special thanks to <a target="_blank" href="https://github.com/fetus-hina">AIZAWA Hina</a></p>
   </footer>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/static/recommend.js"></script>
 </body>
 </html>

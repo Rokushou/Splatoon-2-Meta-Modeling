@@ -16,14 +16,25 @@ def score():
 def recommend():
     return render_template('recommend.html')
 
-# model = pickle.load(open('linreg.p', 'rb'))
-# @app.route('/inference', methods=['POST'])
-# def infernece():
-# 	req = request.get_json()
-# 	print(req)
-# 	c,h,w =req['cylinders'], req['horsepower'], req['weight']
-# 	prediction = model.predict([[c,h,w]])
-# 	return jsonify({'c':c,'h':h,'w':w,'prediction':prediction[0]})
+scorer = pickle.load(open('scorer.pkl', 'rb'))
+
+@app.route('/inference', methods=['POST'])
+def inference():
+	req = request.get_json()
+	print(req)
+	k,a,d,s,i = req['kill'],req['assist'],req['death'],req['special'],req['inked']
+	prediction = scorer.predict_proba([[k,a,d,s,i]])
+	return jsonify({'k':k,'a':a,'s':s,'d':d,'i':i,'prediction':int(prediction[0, 1]*1000)})
+
+recommender = pickle.load(open('recommender.pkl', 'rb'))
+
+@app.route('/rec', methods=['POST'])
+def rec():
+	req = request.get_json()
+	print(req)
+	w, m= req['weapon'].split(", "), req['mode']
+	prediction = recommender.get_weapon_recommendation(w, m)
+	return jsonify({'w':w,'m':m,'prediction':prediction})
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port = 1770, debug = True)
