@@ -105,7 +105,7 @@ class ItemRecommender():
 
     def get_weapon_recommendation(self, weapon, modes='Turf War'):
         '''
-        Takes a list of item user liked and returns the top n items for that user
+        Takes a list of item user liked and returns the top 1 item in a formatted for display string
 
         INPUT
             items - LIST - list of item names user likes
