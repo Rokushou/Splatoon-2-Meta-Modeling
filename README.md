@@ -1,7 +1,4 @@
-# Splatoon-2-Meta-Modeling
-
-#### Acknowledgments
-This project would not have been possible without the data from [fetus-hina](https://github.com/fetus-hina)'s website [stat.ink](https://stat.ink/).
+# Splatoon 2 Meta Modeling
 
 ## Description
 
@@ -134,12 +131,21 @@ The first step of creating the recommender was to get a list of weapons most sim
 
 ![](img/weaponwr.png)
 
-#### No accuracy metric
+As seen in the table of aggregate statistics shown above, there are plenty of ways to rank the predictions. I decided to use Win Percent to keep the model simple and I feel it is the best single statistic to determine weapon performance.
 
-There is no accuracy score for this model as it is supposed to encourage users to try new weapons. I could feed it data based on what weapons users performed best with, but in order to validate the predictions, I would either need to be able to influence the user's choices or hope that the user just happened to use the recommended weapon.
+My model recommends the highest win rate weapon from the recommendations list and also shows the win rate increase. If there are no recommendations that provide a win rate increase, it instead recommends the highest win rate item from the user's favorites.
+
+#### No error metric
+
+There is no accuracy score for this model as it is supposed to encourage users to try new weapons. I could feed it data based on what weapons users performed best with, but in order to validate the predictions, I would either need to be able to influence the user's choices or hope that the user just happens to use the recommended weapon.
 
 ## Future Work
 
-- Model with the entire dataset instead of only the most recent game version to see if predictions improve.
+- Improve my recommender by adding more features to the ranking system. This would likely be a complex neural network and was out of the scope of this project as I had no way of measuring the error.
 
-- Create a flask website that can run my my model using javascript and output predictions based on user input.
+- Incorporate user metadata into the recommender to create a better user-item recommender. This was not possible with my current dataset as users were not identified.
+
+- Upgrade the website with a more modern javascript-heavy style to improve visual aesthetics and enhance the user interface.
+
+#### Acknowledgments
+This project would not have been possible without the data from [fetus-hina](https://github.com/fetus-hina)'s website [stat.ink](https://stat.ink/).
