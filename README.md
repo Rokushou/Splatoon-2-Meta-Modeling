@@ -7,21 +7,25 @@ This project would not have been possible without the data from [fetus-hina](htt
 
 #### Motivation and Goals
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project started as an attempt to predict win rate based on various factors that can be determined pre-match such as game mode, weapon choice, and rank. I wanted to do this less for the end result of the prediction, but so I could better understand what contributes most to a win in Splatoon 2 and how it varied across different game modes.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project started as an attempt to predict win rate based on various factors that can be determined pre-match such as game mode, weapon choice, and rank. However, it quickly became evident that Splatoon 2, in the words of a certain British gamer, is a perfectly balanced game with no exploits. After taking player skill out of the equation, there were practically no difference in the distributions between wins and losses.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However, I quickly found that contrary what some might believe, Splatoon 2 is a perfectly balanced game with no exploits. Without hyperbole, there were practically no differences in win rate across all the factors I considered. Due to that, I was unable to get any useful models, but my process is documented in [Processing and Cleaning](https://github.com/Rokushou/Splatoon-2-Meta-Modeling/blob/master/Processing%20and%20Cleaning.ipynb) and [Modeling](https://github.com/Rokushou/Splatoon-2-Meta-Modeling/blob/master/Modeling.ipynb) if anyone else would like to attempt this.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With that path closed, the only other option was to do predictions using post-match statistics. While predicting the outcome of a match with information obtained after the fact is next to useless, modeling it allows a better understanding of what contributes most to a win as well as being able to score and compare players after a match. Useful for answering the question of "How hard did was I carried by my friend Jeff?"
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pivoting from my block, I decided to do predictions on aggregated post-match statistics. While predicting the outcome of a match with information obtained after the fact is next to useless, modeling it allows me to use inferential statistics to determine the most important factors for winning as well as being able to score and compare players using their post-match statistics. Useful for answering the age old question of "How hard did I (or in most cases my friend Jeff) carry the team?"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second part of the project was creating a weapon recommender, mainly driven by personal desire for one. It recommends players new weapons that are both familiar and proven to be successful. Another important goal of was to create a website to get some web design experience as well as provide public access to the models.
 
 #### Overview
 
-- Player data gathered from stat.ink, a site where players can voluntarily upload their match data. It is located in `data/raw/` and schema can be found in [schema.md](https://github.com/Rokushou/Splatoon-2-Meta-Modeling/blob/master/schema.md).
+- Gathered player data from stat.ink, a site where players can voluntarily upload their match data. The data is freely available on the website and schema can be found in [schema.md](https://github.com/Rokushou/Splatoon-2-Meta-Modeling/blob/master/schema.md).
 
-- Predicted win rate by modeling binary win/loss and using predict percent.
+- Predicted win rate by creating a binary classifier for win/loss and using predict percent.
 
 - Used inferential regression and gradient boosting feature importance to determine most important factors contributing to winning.
 
-- Developed a neural network to perform predictions with 81% accuracy.
+- Developed a neural network classifier with 81% accuracy to perform scoring.
+
+- Designed a recommender that would suggest a weapon similar to a user's favorites with a a higher win rate.
+
+- Created a Flask website hosted on AWS to run both the predictor and recommender.
 
 ## EDA (Experimental Data Analysis)
 My first dead end model came about because of improper EDA. I thought I had enough domain knowledge, so used intuition to decide which features to use. Turns out that the distributions between win and loss were nearly identical for all my features. I did find a few things worth noting though.
@@ -30,7 +34,7 @@ My first dead end model came about because of improper EDA. I thought I had enou
 
 ![](img/rankx.png)
 
-Rank X has significantly more wins than losses. This is not surprising as they are the top players but it is interesting that S+ did not exhibit this.
+Rank X has significantly more wins than losses. This is not surprising as they are the top players and must continually win to stay in the rank. However, it is interesting that S+ (the precursor to X) did not exhibit this.
 
 #### Wins and Losses by Weapon Category
 
@@ -119,6 +123,11 @@ My gradient boosting model was a little more accurate than my logistic regressio
 ![](img/feat.png)
 
 Deaths and kills are also the most important here, however they are more evenly weighted. Inked has dropped in proportional importance but is still 3rd and handily beats special. Surprisingly, level is now a relatively useful predictor, indicating that it may have a nonlinear correlation to win rate.
+
+## Recommender
+
+The first step of creating the recommender was to get a list of weapons most similar to the user's favorites. To do this, I used an item to item based cosine similarity recommender on weapon metadata which was independent of  
+![](img/weaponwr.png)
 
 ## Future Work
 

@@ -66,7 +66,7 @@ class ItemRecommender():
         '''
         Takes a list of items and returns a user profile. A vector representing the likes of the user.
         INPUT:
-            items  -   LIST - list of movie names user likes / has seen
+            items  -   LIST - list of item names user likes
 
         OUTPUT:
             user_profile - NP ARRAY - array representing the likes of the user
@@ -84,10 +84,10 @@ class ItemRecommender():
 
     def get_user_recommendation(self, items, n=5):
         '''
-        Takes a list of movies user liked and returns the top n items for that user
+        Takes a list of items user liked and returns the top n items for that user
 
         INPUT
-            items  -   LIST - list of movie names user likes / has seen
+            items  -   LIST - list of item names user likes
             n -  INT - number of items to return
 
         OUTPUT
@@ -105,14 +105,13 @@ class ItemRecommender():
 
     def get_weapon_recommendation(self, weapon, modes='Turf War'):
         '''
-        Takes a list of movies user liked and returns the top n items for that user
+        Takes a list of item user liked and returns the top n items for that user
 
         INPUT
-            items  -   LIST - list of movie names user likes / has seen
-            n -  INT - number of items to return
+            items - LIST - list of item names user likes
 
         OUTPUT
-            items - LIST - n recommended items
+            out - STR - recommendation formatted as a quote
 
 
         Make
