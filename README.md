@@ -126,8 +126,17 @@ Deaths and kills are also the most important here, however they are more evenly 
 
 ## Recommender
 
-The first step of creating the recommender was to get a list of weapons most similar to the user's favorites. To do this, I used an item to item based cosine similarity recommender on weapon metadata which was independent of  
+#### Item-Item Similarity
+
+The first step of creating the recommender was to get a list of weapons most similar to the user's favorites. To do this, I used a custom item to item based cosine similarity recommender on weapon metadata. Since the metadata does not contain information on weapon performance, this segment of the model only serves to ensure recommend weapons are functionally similar to the user's preferences.
+
+#### Ranking predictions
+
 ![](img/weaponwr.png)
+
+#### No accuracy metric
+
+There is no accuracy score for this model as it is supposed to encourage users to try new weapons. I could feed it data based on what weapons users performed best with, but in order to validate the predictions, I would either need to be able to influence the user's choices or hope that the user just happened to use the recommended weapon.
 
 ## Future Work
 
