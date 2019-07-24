@@ -43,4 +43,4 @@ def rec():
 	return jsonify({'w':w,'m':m,'prediction':prediction})
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0', port=1770, debug=True)
+	app.run(host='0.0.0.0', port=1770, debug=False)
