@@ -24,10 +24,6 @@ def recommend():
 def recommend_a():
     return render_template('recommend_a.html')
 
-@app.route('/recommend_s', methods = ['GET'])
-def recommend_i():
-    return render_template('recommend_s.html')
-
 scorer = pickle.load(open('scorer.pkl', 'rb'))
 
 @app.route('/inference', methods=['POST'])
