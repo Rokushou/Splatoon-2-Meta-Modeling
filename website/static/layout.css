@@ -6,6 +6,18 @@ Author URI: https://www.os-templates.com/
 Licence: <a href="https://www.os-templates.com/template-terms">Website Template Licence</a>
 */
 
+/* checkboxes */
+input[type=checkbox] {
+    display:none;
+}
+
+.check-with-label:checked + .label-for-check {
+    width: 200px;
+    background-color: #AAAAAA;
+    display: inline-block;
+}
+
+/* custom spacing */
 #controls {
     color: #17A80C;
     width: 330px;

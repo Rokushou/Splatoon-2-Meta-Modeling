@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>strat.ink | Weapon Recommender</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="static/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="/">strat.ink</a></h1>
+      <h2>Don't get cooked, stay off the hook!</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="https://splatoon.nintendo.com/">Official Site</a></li>
+        <li><a href="https://splatoonwiki.org/wiki/Splatoon_2">Fan Wiki</a></li>
+        <li><a href="https://stat.ink/">stat.ink</a></li>
+        <li><a href="https://github.com/Rokushou/Splatoon-2-Meta-Modeling">Source Code</a></li>
+        <li class="last"><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- Slider -->
+    <section id="slider"><a href="#"><img src="static/images/weapons.jpg" width="960" height="615" alt=""></a></section>
+    <!-- main content -->
+    <div id="homepage">
+      <!-- / Services -->
+      <section id="services" class="clear">
+        <article class="two_quarter">
+          <h2><font color="#CF0466" size="4">Weapon Recommender</font></h2>
+          <p><font color="#CF0466" size="4">Like Marie's weapon fortunes but better. Tell us your favorite weapon(s) to get a recommendation based on millions of datapoints. Our recommender will not only suggest you the best weapon similar to your favorites, but will also predict a win rate increase.*</font><br><br>*Win rate increase subject to player skill.</p>
+        </article>
+        <article class="two_quarter lastbox">
+          <h2><font color="#17A80C" size="4">Enter your favorite weapon</font></h2>
+          <p>Veteran player? Try <a href="/recommend_a">Advanced Mode</a></p>
+          <div id="controls">
+            <div>
+              <label style = "width: 80px">Weapon</label>
+              <select id="weapon" style = "width: 150px">
+                <optgroup label="Shooters">
+                  <option value="Splattershot" type="text">Splattershot</option>
+                  <option value="Sploosh-o-matic" type="text">Sploosh-o-matic</option>
+                  <option value="Aerospray MG" type="text">Aerospray MG</option>
+                  <option value="Jet Squelcher" type="text">Jet Squelcher</option>
+                  <option value="H-3 Nozzlenose" type="text">H-3 Nozzlenose</option>
+                </optgroup>
+                <optgroup label="Blasters">
+                  <option value="Blaster" type="text">Blaster</option>
+                  <option value="Rapid Blaster" type="text">Rapid Blaster</option>
+                  <option value="Clash Blaster" type="text">Clash Blaster</option>
+                </optgroup>
+                <optgroup label="Rollers">
+                  <option value="Splat Roller" type="text">Splat Roller</option>
+                  <option value="Dynamo Roller" type="text">Dynamo Roller</option>
+                  <option value="Octobrush" type="text">Octobrush</option>
+                </optgroup>
+                <optgroup label="Chargers">
+                  <option value="Splat Charger" type="text">Splat Charger</option>
+                  <option value="E-liter 4K" type="text">E-liter 4K</option>
+                  <option value="Bamboozler 14 Mk I" type="text">Bamboozler 14 Mk I</option>
+                </optgroup>
+                <optgroup label="Sloshers">
+                  <option value="Slosher" type="text">Slosher</option>
+                  <option value="Explosher" type="text">Explosher</option>
+                </optgroup>
+                <optgroup label="Splatlings">
+                  <option value="Heavy Splatling" type="text">Heavy Splatling</option>
+                  <option value="Mini Splatling" type="text">Mini Splatling</option>
+                </optgroup>
+                <optgroup label="Dualies">
+                  <option value="Splat Dualies" type="text">Splat Dualies</option>
+                  <option value="Dualie Squelchers" type="text">Dualie Squelchers</option>
+                </optgroup>
+                <optgroup label="Brellas">
+                  <option value="Splat Brella" type="text">Splat Brella</option>
+                  <option value="Undercover Brella" type="text">Undercover Brella</option>
+                </optgroup>
+              </select>
+            </div>
+            <div>
+              <label style = "width: 80px">Mode</label>
+              <select id="mode" style = "width: 150px">
+                <option value="Turf War">Turf War</option>
+                <option value="Splat Zones" type="text">Splat Zones</option>
+                <option value="Tower Control" type="text">Tower Control</option>
+                <option value="Rainmaker" type="text">Rainmaker</option>
+                <option value="Clam Blitz" type="text">Clam Blitz</option>
+              </select>
+            </div>
+            <div>
+              <button id="submit">&nbsp;Recommend&nbsp;&nbsp;&#9660;</button>
+              <textarea id="rec" type="text" readonly></textarea>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!-- ########################################################################################## -->
+      <!-- ########################################################################################## -->
+      <!-- ########################################################################################## -->
+      <!-- ########################################################################################## -->
+    </div>
+    <!-- / content body -->
+  </div>
+</div>
+<!-- Footer -->
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2019 - <a target="_blank" href="https://github.com/rokushou"><span lang="ja">緑青</span> (Rokushou)</p>
+    <p class="fl_right">Special thanks to <a target="_blank" href="https://github.com/fetus-hina">AIZAWA Hina</a></p>
+  </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/static/recommend.js"></script>
+</body>
+</html>
