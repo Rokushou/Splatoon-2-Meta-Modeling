@@ -1,4 +1,4 @@
-# Splatoon 2: Absolute Advantage
+# Splatoon 2: ΛBSOLUTΞ ΛDVΛNTΛGΞ
 
 ## Description
 
