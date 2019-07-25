@@ -1,4 +1,4 @@
-# Splatoon 2 Meta Modeling
+# Splatoon 2: Absolute Advantage
 
 ## Description
 
