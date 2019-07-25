@@ -190,7 +190,7 @@ input, textarea, select{font-size:12px; font-family:"Lucida Sans Unicode", "Luci
 #container #slider figure img{float:right; width:630px; height:300px;}
 #container #slider figure figcaption{display:block; float:left; width:280px; height:260px; padding:20px; overflow:hidden; color:#989898; background-color:#191919; line-height:1.6em;}
 #container #slider figure figcaption a{color:#FB5C03; background-color:#DEDEDE;}
-#container #slider figure h2{font-size:42px; font-weight:normal; font-style:italic; text-transform:none;}
+#container #slider figure h2{font-size:42px; font-weight:normal; text-transform:none;}
 #container #slider figure footer{}
 
 /* ------Main Content-----*/
