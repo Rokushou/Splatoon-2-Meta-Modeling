@@ -6,7 +6,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This project started as an attempt to predict win rate based on various factors that can be determined pre-match such as game mode, weapon choice, and rank. However, it quickly became evident that Splatoon 2, in the words of a certain British gamer, is a perfectly balanced game with no exploits. After taking player skill out of the equation, there were practically no difference in the distributions between wins and losses.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With that path closed, the only other option was to do predictions using post-match statistics. While predicting the outcome of a match with information obtained after the fact is next to useless, modeling it allows a better understanding of what contributes most to a win as well as being able to score and compare players after a match. Useful for answering the question of "How hard did was I carried by my friend Jeff?"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With that path closed, the only other option was to do predictions using post-match statistics. While predicting the outcome of a match with information obtained after the fact is next to useless, modeling it allows a better understanding of what contributes most to a win as well as being able to score and compare players after a match. Useful for answering the question of "How hard was I carried by my friend Jeff?"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The second part of the project was creating a weapon recommender, mainly driven by personal desire for one. It recommends players new weapons that are both familiar and proven to be successful. Another important goal of was to create a website to get some web design experience as well as provide public access to the models.
 
